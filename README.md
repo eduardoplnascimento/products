@@ -21,7 +21,7 @@ As instruções a seguir vão adicionar uma cópia do projeto na sua máquina lo
 
 ```
 GIT
-PHP ^8.0
+PHP ^7.4
 MySQL
 Composer (https://getcomposer.org/)
 ```
@@ -38,10 +38,10 @@ GRANT ALL PRIVILEGES ON laravel . * TO 'seu_usuario'@'localhost';
 - Clone o projeto para sua máquina (coloque na pasta do seu servidor WEB):
 
 ```
-git clone https://github.com/eduardoplnascimento/laravel-boilerplate.git
+git clone https://github.com/eduardoplnascimento/products.git
 ```
 
-- Entre no diretório **laravel-boilerplate**.
+- Entre no diretório **products**.
 - Copie o arquivo .env.example e nomeie .env:
 
 ```
