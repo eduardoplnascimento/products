@@ -12,7 +12,13 @@
 
     <ul>
         @foreach ($products as $item)
-            <li>{{ $item->name }} - {{ $item->price }}</li>
+
+            <li>
+                <a href="/show/{{ $item->id }}">
+                    {{ $item->name }}
+                </a>
+            </li>
+
         @endforeach
     </ul>
 </body>
